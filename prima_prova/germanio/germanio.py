@@ -1,10 +1,11 @@
 import numpy
 from math import exp
 from matplotlib import pyplot
+from dati import V, e_V, I, e_I
 
-#pyplot.scatter(V_2, i_2, label = 'linear')
-pyplot.yscale('log')
-pyplot.xlabel('Tensione [mV]')
+pyplot.errorbar(V, I, e_V, e_I)
+pyplot.yscale('linear')
+pyplot.xlabel('Tensione [V]')
 pyplot.ylabel('Corrente [mA]')
 pyplot.title('Caratteristica I-V del diodo al Germanio')
 pyplot.legend()
