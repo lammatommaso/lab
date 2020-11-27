@@ -1,0 +1,2 @@
+errore oscilloscopio sqrt(3%^2+(f.s./10)^2)
+errore multimetro da foto V(0.15%+2) I(1%+3)
