@@ -1,6 +1,0 @@
-#!/bin/bash
-
-./parse
-python3 silicio.py
-python3 germanio.py
-python3 calibrazione.py
