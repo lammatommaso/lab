@@ -18,12 +18,12 @@ print("db = ",db)
 
 
 x = numpy.linspace(0.1,0.8,100)
-pyplot.errorbar(V_mul, V_osc, e_V_osc, e_V_mul, fmt='ok')
-pyplot.plot(x,a+b*x)
+pyplot.errorbar(V_mul, V_osc, e_V_osc, e_V_mul, fmt='ok', label='dati')
+pyplot.plot(x,a+b*x, label='fit')
 pyplot.yscale('linear') 
 pyplot.xlabel('Tensione Multimetro [V]')
 pyplot.ylabel('Tensione Oscilloscopio [V]')
 pyplot.title('Calibrazione Oscilloscopio-Multimetro')
-#pyplot.legend()
-pyplot.savefig('calibrazione.png')
+pyplot.legend()
+pyplot.savefig('grafico_calibrazione.png')
 

@@ -1,14 +1,14 @@
 # MODULE LINEARFIT
 from math import sqrt
 
-def linearfit(x,y,e_y):
+def linearfit(x, y, e_y):
     S1=0
     Sx=0
     Sy=0
     Sxx=0
     Sxy=0
    
-    for i in range(0,14):
+    for i in range(4,14):
         S1+=1/(e_y[i]**2)
         Sx+=x[i]/(e_y[i]**2)
         Sy+=y[i]/(e_y[i]**2)

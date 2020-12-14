@@ -30,7 +30,7 @@ I0=exp(-a/b)
 print('I0 = ',I0)
 
 x=numpy.linspace(400,710,100)
-pyplot.plot(x,I0*numpy.exp(x/b-1), label = 'fit') 
+pyplot.plot(x,I0*numpy.exp((x-1)/b), label = 'fit') 
 
 # Dato che V = -clnI0+clnI abbiamo che V=cln(I/I0), I/I0 = e^(V/c-1)
 
