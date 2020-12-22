@@ -1,0 +1,65 @@
+\documentclass{amsart}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{enumerate}
+\usepackage{comment}
+\usepackage{multirow}
+\usepackage[a4paper]{geometry}
+\geometry{ a4paper, left = 1cm, right = 1cm, top = 1cm, bottom = 1cm}
+
+\begin{document}
+    \hrule
+    \begin{center}
+        \textbf{ Lamma    Tommaso    0000881007        Turno    II }\\
+    \end{center}
+    \hrule
+    \begin{center}
+        {\huge Misura della caratteristica di uscita di un BJT P-N-P in configurazione a Emettitore comune}
+    \end{center}
+    Il circuito utilizzato per la prova è il seguente :
+    \begin{center}
+        \includegraphics[width = 5cm, height = 7cm]{circuito.png}.
+    \end{center}
+    Gli strumenti utilizzati nella prova sono:
+    \begin{enumerate}[(i)]
+        \item Potenziometro da 1$k\Omega$
+        \item Potenziometro da 100$k\Omega$
+        \item Transistor BJT 2N3906(BU) (Si PNP) 
+        \item Breadboard generica
+        \item Oscilloscopio GOS-652 GW
+        \item Multimetro digitale FLUKE 77
+        \item Generatore di tensione continua IPS 3303 ISO-TECH
+    \end{enumerate}
+    \newpage
+    I dati misurati con corrente di base 100mA e 200mA sono:\\
+    \hfill \\
+    \begin{center}
+        \begin{tabular}{|p{1cm}|p{1cm}|p{1cm}|p{1cm}|p{2cm}|}
+            \hline
+            \multicolumn{5}{|c|}{Corrente di base 100mA}\\
+            \hline
+            \textbf V[V] & $\delta$V[V] & I[mA] & $\delta$I[mA] & fondoscala$[V]$ \\
+            \hline
+            \input{ib100/tabular.tex}
+            \hline      
+        \end{tabular}
+        \hspace{1cm}
+        \begin{tabular}{|p{1cm}|p{1cm}|p{1cm}|p{1cm}|p{2cm}|}
+            \hline
+            \multicolumn{5}{|c|}{Corrente di base 200mA}\\
+            \hline
+            \textbf V[V] & $\delta$V[V] & I[mA] & $\delta$I[mA]  & fondoscala$[V]$ \\
+            \hline
+            \input{ib200/tabular.tex}
+            \hline
+        \end{tabular}
+    \end{center}
+    I loro rispettivi grafici sono:\\
+    \hfill \\
+    \begin{center}
+        \includegraphics[width = 9cm, height = 9cm]{ib100/grafico_transistor.png}
+        \hspace{0.1cm}
+        \includegraphics[width = 9cm, height = 9cm]{ib200/grafico_transistor.png}
+    \end{center}
+    I risultati finali sono:\\
+\end{document}

@@ -2,7 +2,7 @@
 #include<cmath>
 #include<string>
 
-#define N 15
+#define N 33
 
 const std::string nl = "\\";
 const std::string NL = nl + nl;
@@ -17,12 +17,12 @@ struct Error_Point
     Error_Point(){}
     friend std::istream& operator>>(std::istream& is, Error_Point& p)
     {
-        is>>p.V>>p.e_V>>p.I>>p.e_I;
+        is>>p.V>>p.e_V>>p.I;
 	return is;
     }
 	friend std::ostream& operator<<(std::ostream& os, Error_Point& p)
     {
-        os<<p.V<<" & "<<sqrt(p.e_V*p.e_V + 0.03*p.V*0.03*p.V)<<" & "<<p.I<<" & "<<p.e_I<<NL;;
+        os<<p.V<<" & "<<sqrt(p.e_V*p.e_V + 0.03*p.V*0.03*p.V)<<" & "<<p.I<<" & "<<0.015*p.I<<" & "<<10*p.e_V<<NL;
 	return os;
     }
 };
@@ -54,13 +54,13 @@ struct Error_Point_Array
 int main() 
 {
    std::ifstream input;
-   input.open("calibrazione/dati.txt");
+   input.open("dati.txt");
    Error_Point_Array pydata;
    input>>pydata;
    input.close();
 
    std::ofstream output;
-   output.open("calibrazione/tabular.tex");
+   output.open("tabular.tex");
    output<<pydata;
    output.close();
 }

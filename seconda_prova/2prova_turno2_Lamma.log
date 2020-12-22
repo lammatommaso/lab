@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.9.19)  22 DEC 2020 10:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.9.19)  22 DEC 2020 11:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**1prova_turno4_Lamma.tex
-(./1prova_turno4_Lamma.tex
+**2prova_turno2_Lamma.tex
+(./2prova_turno2_Lamma.tex
 LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 3 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/amscls/amsart.cls
@@ -488,8 +488,8 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutvoffset=\dimen124
 \Gm@dimlist=\toks29
 )
-(./1prova_turno4_Lamma.aux)
-\openout1 = `1prova_turno4_Lamma.aux'.
+(./2prova_turno2_Lamma.aux)
+\openout1 = `2prova_turno2_Lamma.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
 LaTeX Font Info:    ... okay on input line 10.
@@ -612,96 +612,96 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<circuito.png, id=1, 772.8875pt x 428.60126pt>
+<circuito.png, id=1, 592.2125pt x 744.7825pt>
 File: circuito.png Graphic file (type png)
 <use circuito.png>
-Package pdftex.def Info: circuito.png  used on input line 24.
-(pdftex.def)             Requested size: 284.52512pt x 199.16672pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 35--38
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 35--38
-
- []
-
-
-Overfull \hbox (1.48354pt too wide) in paragraph at lines 43--44
-[]\OT1/cmr/m/n/10 fondoscala[V]| 
- []
-
-
-Overfull \hbox (1.37022pt too wide) in paragraph at lines 61--62
-[]$\OML/cmm/m/it/10 ^^N$\OT1/cmr/m/n/10 I[mA]| 
- []
-
-(./silicio/tabular.tex)
-Overfull \hbox (1.37022pt too wide) in paragraph at lines 71--72
-[]$\OML/cmm/m/it/10 ^^N$\OT1/cmr/m/n/10 I[mA]| 
- []
-
-(./germanio/tabular.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 77--79
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 77--79
-
- []
-
+Package pdftex.def Info: circuito.png  used on input line 21.
+(pdftex.def)             Requested size: 142.2604pt x 199.162pt.
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./circuito.png>]
-<calibrazione/grafico_calibrazione.png, id=15, 400.3758pt x 415.5525pt>
-File: calibrazione/grafico_calibrazione.png Graphic file (type png)
-<use calibrazione/grafico_calibrazione.png>
-Package pdftex.def Info: calibrazione/grafico_calibrazione.png  used on input l
-ine 80.
-(pdftex.def)             Requested size: 227.63008pt x 227.62248pt.
-<silicio/grafico_silicio.png, id=16, 402.5439pt x 415.5525pt>
-File: silicio/grafico_silicio.png Graphic file (type png)
-<use silicio/grafico_silicio.png>
-Package pdftex.def Info: silicio/grafico_silicio.png  used on input line 82.
-(pdftex.def)             Requested size: 227.62813pt x 227.62248pt.
-<germanio/grafico_germanio.png, id=17, 418.4433pt x 415.5525pt>
-File: germanio/grafico_germanio.png Graphic file (type png)
-<use germanio/grafico_germanio.png>
-Package pdftex.def Info: germanio/grafico_germanio.png  used on input line 84.
-(pdftex.def)             Requested size: 227.62248pt x 227.62248pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 86--88
+Underfull \hbox (badness 10000) in paragraph at lines 34--36
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 86--88
+Underfull \hbox (badness 10000) in paragraph at lines 34--36
 
  []
 
-[2 <./calibrazione/grafico_calibrazione.png> <./silicio/grafico_silicio.png> <.
-/germanio/grafico_germanio.png>] (./1prova_turno4_Lamma.aux) ) 
+
+Overfull \hbox (1.37022pt too wide) in paragraph at lines 41--41
+[]$\OML/cmm/m/it/10 ^^N$\OT1/cmr/m/n/10 I[mA]| 
+ []
+
+
+Overfull \hbox (2.03908pt too wide) in paragraph at lines 41--42
+[]\OT1/cmr/m/n/10 fondoscala$[\OML/cmm/m/it/10 V\OT1/cmr/m/n/10 ]$| 
+ []
+
+(./ib100/tabular.tex)
+Overfull \hbox (1.37022pt too wide) in paragraph at lines 51--51
+[]$\OML/cmm/m/it/10 ^^N$\OT1/cmr/m/n/10 I[mA]| 
+ []
+
+
+Overfull \hbox (2.03908pt too wide) in paragraph at lines 51--52
+[]\OT1/cmr/m/n/10 fondoscala$[\OML/cmm/m/it/10 V\OT1/cmr/m/n/10 ]$| 
+ []
+
+(./ib200/tabular.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+
+ []
+
+<ib100/grafico_transistor.png, id=14, 384.4764pt x 415.5525pt>
+File: ib100/grafico_transistor.png Graphic file (type png)
+<use ib100/grafico_transistor.png>
+Package pdftex.def Info: ib100/grafico_transistor.png  used on input line 60.
+(pdftex.def)             Requested size: 256.07838pt x 256.08638pt.
+<ib200/grafico_transistor.png, id=15, 384.4764pt x 415.5525pt>
+File: ib200/grafico_transistor.png Graphic file (type png)
+<use ib200/grafico_transistor.png>
+Package pdftex.def Info: ib200/grafico_transistor.png  used on input line 62.
+(pdftex.def)             Requested size: 256.07838pt x 256.08638pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--66
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--66
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2 <./ib100/grafico_transistor.png> <./ib200/grafico_transistor.png>] [3]
+(./2prova_turno2_Lamma.aux) ) 
 Here is how much of TeX's memory you used:
- 3501 strings out of 494923
- 45390 string characters out of 6180742
- 130981 words of memory out of 5000000
- 6588 multiletter control sequences out of 15000+600000
+ 3494 strings out of 494923
+ 45158 string characters out of 6180742
+ 142981 words of memory out of 5000000
+ 6584 multiletter control sequences out of 15000+600000
  9046 words of font info for 36 fonts, out of 8000000 for 9000
  175 hyphenation exceptions out of 8191
- 41i,10n,28p,286b,209s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-sy7.pfb>
-Output written on 1prova_turno4_Lamma.pdf (2 pages, 169512 bytes).
+ 41i,10n,28p,286b,206s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on 2prova_turno2_Lamma.pdf (3 pages, 139048 bytes).
 PDF statistics:
- 52 PDF objects out of 1000 (max. 8388607)
- 31 compressed objects within 1 object stream
+ 53 PDF objects out of 1000 (max. 8388607)
+ 33 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

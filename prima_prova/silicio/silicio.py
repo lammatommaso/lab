@@ -17,7 +17,7 @@ pyplot.ylabel('Corrente [mA]')
 pyplot.title('Caratteristica I-V del diodo al Silicio')
 
 #b , a = numpy.polyfit(numpy.log(I),V,1)
-a,b,da,db=lf(numpy.log(I),V,e_V)
+a,b,da,db,dab=lf(numpy.log(I),V,e_V)
 
 print("a = ",a)
 print("da = ",da)
@@ -25,7 +25,9 @@ print("b = ",b)
 print("db = ",db)
 
 I0=exp(-a/b)
+dI0 = sqrt((I0*da/b)**2 + (a*I0*db/b**2)**2 + 2*(I0/b)*(I0*a/b**2)*dab)
 print('I0 = ',I0)
+print('dI0 = ',dI0)
 
 x=numpy.linspace(50,350,100)
 pyplot.plot(x,I0*(numpy.exp(x/b)-1),label = 'fit') 

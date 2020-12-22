@@ -22,7 +22,7 @@ struct Error_Point
     }
 	friend std::ostream& operator<<(std::ostream& os, Error_Point& p)
     {
-        os<<p.V<<" & "<<sqrt(p.e_V*p.e_V + 0.03*p.V*0.03*p.V)<<" & "<<p.I<<" & "<<p.e_I<<NL;;
+        os<<p.V<<" & "<<sqrt(p.e_V*p.e_I+ 0.03*p.V*0.03*p.V)<<" & "<<p.I<<" & "<<p.e_I<<NL;;
 	return os;
     }
 };
@@ -54,13 +54,13 @@ struct Error_Point_Array
 int main() 
 {
    std::ifstream input;
-   input.open("calibrazione/dati.txt");
+   input.open("dati.txt");
    Error_Point_Array pydata;
    input>>pydata;
    input.close();
 
    std::ofstream output;
-   output.open("calibrazione/tabular.tex");
+   output.open("tabular.tex");
    output<<pydata;
    output.close();
 }

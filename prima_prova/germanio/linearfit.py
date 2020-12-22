@@ -21,7 +21,8 @@ def linearfit(x,y,e_x):
     b=(S1*Sxy-Sx*Sy)/D
     da=sqrt(Sxx/D)
     db=sqrt(S1/D)
+    dab=-Sx/D
 
-    return a,b,da,db
+    return a,b,da,db,dab
     
 
