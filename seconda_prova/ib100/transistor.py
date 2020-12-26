@@ -14,7 +14,7 @@ pyplot.errorbar(V, I, 0, e_V, fmt='ok', label = 'dati')
 pyplot.yscale('linear') 
 pyplot.xlabel('Tensione [V]')
 pyplot.ylabel('Corrente [mA]')
-pyplot.title('Caratteristica in uscita')
+pyplot.title('Caratteristica in uscita($I_B = 100\mu A$)')
 
 a,b,da,db=lf(V, I ,e_V)
 

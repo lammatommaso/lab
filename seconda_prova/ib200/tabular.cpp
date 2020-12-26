@@ -42,10 +42,12 @@ struct Error_Point_Array
     }
     friend std::ostream& operator<<(std::ostream& os, Error_Point_Array& arr)
     {
-		for(int i=0;i<N;i++)
-		{
-			os<<arr.el[i]<<'\n';
-		}
+		std::cout"\\begin{tabular}{|c|c|c|c|c|}"<<"\n";
+            for(int i=0;i<N;i++)
+            {
+                os<<arr.el[i]<<'\n';
+            }
+        std::cout"\\end{tabular}"<<"\n";
 	}
 };
 
