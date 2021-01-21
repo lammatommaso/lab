@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.9.19)  26 DEC 2020 18:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.9.19)  21 JAN 2021 11:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -622,16 +622,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--36
 
  []
 
-<ib100/grafico_transistor.png, id=3, 393.1488pt x 416.2752pt>
+<ib100/grafico_transistor.png, id=3, 396.0396pt x 416.2752pt>
 File: ib100/grafico_transistor.png Graphic file (type png)
 <use ib100/grafico_transistor.png>
 Package pdftex.def Info: ib100/grafico_transistor.png  used on input line 37.
-(pdftex.def)             Requested size: 256.0896pt x 256.08713pt.
-<ib200/grafico_transistor.png, id=4, 393.1488pt x 416.2752pt>
+(pdftex.def)             Requested size: 256.07507pt x 256.08713pt.
+<ib200/grafico_transistor.png, id=4, 396.0396pt x 416.2752pt>
 File: ib200/grafico_transistor.png Graphic file (type png)
 <use ib200/grafico_transistor.png>
 Package pdftex.def Info: ib200/grafico_transistor.png  used on input line 39.
-(pdftex.def)             Requested size: 256.0896pt x 256.08713pt.
+(pdftex.def)             Requested size: 256.07507pt x 256.08713pt.
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./circuito.png> <./ib100
 /grafico_transistor.png> <./ib200/grafico_transistor.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 42--44
@@ -659,31 +659,45 @@ Overfull \hbox (2.03908pt too wide) in paragraph at lines 59--60
  []
 
 (./ib200/tabular.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 65--67
+Underfull \hbox (badness 10000) in paragraph at lines 65--66
 
  []
 
-[2] (./2prova_turno2_Lamma.aux) ) 
+<effetto_early.png, id=18, 392.4261pt x 415.5525pt>
+File: effetto_early.png Graphic file (type png)
+<use effetto_early.png>
+Package pdftex.def Info: effetto_early.png  used on input line 67.
+(pdftex.def)             Requested size: 284.54056pt x 284.53761pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--71
+
+ []
+
+
+Underfull \vbox (badness 3078) has occurred while \output is active []
+
+ [2 <./effetto_early.png>] [3] (./2prova_turno2_Lamma.aux) ) 
 Here is how much of TeX's memory you used:
- 3495 strings out of 494923
- 45166 string characters out of 6180742
- 145981 words of memory out of 5000000
- 6585 multiletter control sequences out of 15000+600000
+ 3500 strings out of 494923
+ 45270 string characters out of 6180742
+ 142981 words of memory out of 5000000
+ 6589 multiletter control sequences out of 15000+600000
  9046 words of font info for 36 fonts, out of 8000000 for 9000
  175 hyphenation exceptions out of 8191
- 41i,10n,28p,286b,184s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
-10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on 2prova_turno2_Lamma.pdf (2 pages, 137872 bytes).
+ 41i,10n,28p,286b,206s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols
+/msbm10.pfb>
+Output written on 2prova_turno2_Lamma.pdf (3 pages, 158370 bytes).
 PDF statistics:
- 50 PDF objects out of 1000 (max. 8388607)
- 31 compressed objects within 1 object stream
+ 55 PDF objects out of 1000 (max. 8388607)
+ 33 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

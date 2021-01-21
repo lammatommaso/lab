@@ -8,7 +8,7 @@ def linearfit(x,y,e_y):
     Sxx=0
     Sxy=0
    
-    for i in range(0,13):
+    for i in range(3,14):
                 S1+=1/(e_y[i]**2)
                 Sx+=x[i]/(e_y[i]**2)
                 Sy+=y[i]/(e_y[i]**2)
